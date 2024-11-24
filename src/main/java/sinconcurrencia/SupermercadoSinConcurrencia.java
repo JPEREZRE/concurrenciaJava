@@ -1,14 +1,17 @@
 package sinconcurrencia;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Clase principal que coordina la simulación del sistema sin concurrencia.
+ * Clase principal que coordina la operación del sistema sin concurrencia.
  */
 public class SupermercadoSinConcurrencia {
 
+    /**
+     * Método principal que coordina la operación del supermercado.
+     * @param args
+     */
     public static void main(String[] args) {
         
         ProductoSinConcurrencia p1 = new ProductoSinConcurrencia("Manzana", 2200, 2);

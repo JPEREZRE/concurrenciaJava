@@ -21,14 +21,28 @@ class Producto {
         this.tiempoProcesamiento = tiempoProcesamiento;
     }
 
+    /**
+     * Obtiene el nombre del producto.
+     * @return el nombre del producto.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Obtiene el precio del producto.
+     * @return el precio del producto.
+     */
     public double getPrecio() {
         return precio;
     }
 
+    /**
+     * Obtiene el tiempo de procesamiento del producto.
+     * Este tiempo representa cuántos segundos tarda en ser escaneado.
+     *
+     * @return el tiempo de procesamiento en segundos.
+     */
     public int getTiempoProcesamiento() {
         return tiempoProcesamiento;
     }

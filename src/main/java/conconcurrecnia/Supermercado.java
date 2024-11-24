@@ -3,10 +3,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Clase principal que coordina la simulación del sistema.
+ * Clase principal que coordina la operación del sistema.
  */
 public class Supermercado {
 
+    /**
+     * Método principal que coordina la operación del supermercado.
+     * @param args
+     */
     public static void main(String[] args) {
 
         Producto p1 = new Producto("Manzana", 2200, 2);

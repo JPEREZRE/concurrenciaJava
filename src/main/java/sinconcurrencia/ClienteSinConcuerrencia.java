@@ -21,12 +21,21 @@ class Cliente {
         this.productos = productos;
     }
 
+    /**
+     * Obtiene el nombre del producto.
+     * @return el nombre del producto.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Obtiene la lista de productos adquiridos.
+     * @return una lista de objetos que representa los productos adquiridos por el cliente.
+     */
     public List<ProductoSinConcurrencia> getProductos() {
         return productos;
     }
+
 }
 

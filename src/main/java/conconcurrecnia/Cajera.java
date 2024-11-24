@@ -18,6 +18,9 @@ class Cajera extends Thread {
         this.cliente = cliente;
     }
 
+    /**
+     * Ejecuta la tarea asignada a este hilo.
+     */
     @Override
     public void run() {
         System.out.println("La cajera " + nombre + " comienza a atender al cliente " + cliente.getNombre());
